@@ -1,1 +1,49 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: brown;
+}
+
+#cards1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#cards2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#cards3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tarjets {
+  background-color: white;
+  width: 10%;
+  border: 1px solid black;
+  height: 10%;
+  margin: 2% auto;
+  border-radius: 20px;
+}
+
+.v1 {
+  text-align: left;
+  margin-right: 60%;
+  color: black;
+  font-size: 500%;
+}
+.v2 {
+  text-align: center;
+  margin-left: -10%;
+  color: black;
+  font-size: 500%;
+}
+.v3 {
+  color: black;
+  font-size: 500%;
+  margin-left: 80%;
+  margin-top: 20%;
+  float: right;
+  rotate: 180deg;
+}
